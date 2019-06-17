@@ -7,6 +7,8 @@ body{
     
 }
 
+
+
 div.ultimatebound{
      margin: 0;
      background-color:black;
@@ -39,11 +41,17 @@ div.upperlist{
 
 }
 
+div.navtabholder{
+     margin: 0px;
+     width:100%;
+     height: 60px;
+}
+
 div.navigationtab{
     /* position: relative; */
     margin: 0px;
     width:100%;
-    height: 10%;
+    height: 60px;
    
 
     background-color: black;
@@ -53,6 +61,11 @@ div.navigationtab{
 div.navlist{
      position: absolute;
      right: 35px;
+}
+
+div.imagehere{
+
+     /* Do here */
 }
 
 div.texthere{
@@ -68,6 +81,7 @@ div.bottompart{
 
 div.bottompart>p{
      padding: 15px;
+     font-size: 15px;
 
 }
 
