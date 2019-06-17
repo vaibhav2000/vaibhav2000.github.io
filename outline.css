@@ -53,6 +53,7 @@ div.navigationtab{
     width:100%;
     height: 60px;
    
+    z-index: 1;
 
     background-color: black;
     
@@ -63,10 +64,49 @@ div.navlist{
      right: 35px;
 }
 
-div.imagehere{
-
-     /* Do here */
+div.aboutcontainer{
+      
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0; 
+     
 }
+
+div.abouttext{
+
+  position: absolute;   
+  width: 40%;
+  height: 100%;
+  left: 0px;
+}
+
+div.aboutimage{
+
+ position: absolute;   
+ height: 100%;
+ width: auto;
+ right: 0px;  
+ top: 50px; 
+
+ /* background-color: beige; */
+
+}
+
+div.aboutimage>img{
+   
+      margin: auto auto auto auto;
+      border: thick solid white;
+    
+      
+      text-align: center;
+      height: 500px;
+      
+     
+}
+
+
+
 
 div.texthere{
      margin: 0 40px 0 40px;
