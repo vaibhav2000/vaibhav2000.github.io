@@ -43,7 +43,7 @@ div.navigationtab{
     /* position: relative; */
     margin: 0px;
     width:100%;
-    height: 60px;
+    height: 10%;
    
 
     background-color: black;
@@ -59,9 +59,21 @@ div.texthere{
      margin: 0 40px 0 40px;
 }
 
+div.bottompart{
+      background-color: black;
+      width: 100%;
+      text-align: center;
+
+}
+
+div.bottompart>p{
+     padding: 15px;
+
+}
+
 .stickproperty{
-    position: fixed;
-    top: 0px;
+     position: fixed;
+     top: 0px;
 }
 
 li{
@@ -81,8 +93,8 @@ h1{
 }
 
 
-
-a:visited , a:link , a:focus{
+ul>a:visited ,ul>a:link , ul>a:focus{
      color: white;
      text-decoration: none;
 }
+
