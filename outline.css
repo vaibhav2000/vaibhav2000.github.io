@@ -66,7 +66,6 @@ div.navlist{
 
 div.aboutcontainer{
       
-    position: relative;
     width: 100%;
     height: 100%;
     z-index: 0; 
@@ -75,17 +74,17 @@ div.aboutcontainer{
 
 div.abouttext{
 
-  position: absolute;   
   width: 40%;
-  height: 100%;
-  left: 0px;
+  height: auto;
+  float: left;
 }
 
 div.aboutimage{
 
- position: absolute;   
+ float: right;      
  height: 100%;
- width: auto;
+ width:  40%; 
+ 
  right: 0px;  
  top: 50px; 
 
@@ -95,16 +94,48 @@ div.aboutimage{
 
 div.aboutimage>img{
    
-      margin: auto auto auto auto;
+      margin: 15px;
       border: thick solid white;
     
       
       text-align: center;
       height: 500px;
+      width: 500px;
       
      
 }
 
+
+div.handles{
+     
+      width: 100%;
+      height: 150px;
+      text-align: center;
+
+}
+
+div.facebook{
+    
+     width: 20%;
+    float: left;
+    margin: 1%;
+}
+
+div.instagram{
+     width: 20%;
+     float: left;
+     margin: 1%;
+}
+div.twitter{
+     width: 20%;
+     float: left;
+     margin: 1%;
+}
+div.github{
+     width: 20%;
+     float: left;
+     margin: 1%;
+}
 
 
 
@@ -146,6 +177,19 @@ h1{
      
 }
 
+div.competitive a:visited,div.competitive a:link,div.competitive a:focus {
+    
+     color: white;
+     text-decoration: none;
+          
+}
+
+
+
+div.competitive a:hover{
+     color: orange;
+     transition: 0.5s;
+}
 
 ul>a:visited ,ul>a:link , ul>a:focus{
      color: white;
