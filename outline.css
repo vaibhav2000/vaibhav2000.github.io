@@ -7,12 +7,10 @@ body{
     
 }
 
-
-
 div.ultimatebound{
      margin: 0;
-     background-color:black;
-     background-image: url("Images/imagetile.jpg");
+     background-color: rgb(40,42,53);
+     
      
     
 } 
@@ -34,6 +32,7 @@ div.centertext{
 }
 
 
+
 div.upperlist{
      position: absolute;
      top: 5px;
@@ -53,7 +52,6 @@ div.navigationtab{
     width:100%;
     height: 60px;
    
-    z-index: 1;
 
     background-color: black;
     
@@ -64,46 +62,25 @@ div.navlist{
      right: 35px;
 }
 
-div.aboutcontainer{
-      
-    width: 100%;
-    height: 100%;
-    z-index: 0; 
-     
-}
 
 div.abouttext{
 
-  width: 40%;
-  height: auto;
-  float: left;
 }
 
 div.aboutimage{
-
- float: right;      
- height: 100%;
- width:  40%; 
- 
- right: 0px;  
- top: 50px; 
-
- /* background-color: beige; */
-
-}
-
-div.aboutimage>img{
-   
-      margin: 15px;
-      border: thick solid white;
-    
-      
-      text-align: center;
-      height: 500px;
-      width: 500px;
-      
+  
      
+
+     margin: 0 auto 0 auto; 
+     text-align: center;
+     height: 60%;
+     width: 60%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-image: url("Images/profilepic.jpeg");
 }
+
 
 
 div.handles{
@@ -161,6 +138,9 @@ div.bottompart>p{
      top: 0px;
 }
 
+
+
+
 li{
      display: inline;
      padding: 15px;
@@ -174,6 +154,8 @@ li:hover{
 
 h1{
      font-size: 50px;
+     color: orange;
+
      
 }
 
@@ -185,14 +167,16 @@ div.competitive a:visited,div.competitive a:link,div.competitive a:focus {
 }
 
 
-
-div.competitive a:hover{
-     color: orange;
-     transition: 0.5s;
-}
-
 ul>a:visited ,ul>a:link , ul>a:focus{
      color: white;
      text-decoration: none;
 }
 
+div.competitive li{
+     display: list-item;
+     
+}
+
+div.competitive li:hover{
+     color: white;
+}
