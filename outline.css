@@ -68,19 +68,32 @@ div.abouttext{
 }
 
 div.aboutimage{
-  
+    
      
+    height: 25vw;
+    width: auto;
 
-     margin: 0 auto 0 auto; 
-     text-align: center;
-     height: 60%;
-     width: 60%;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: contain;
-     background-image: url("Images/profilepic.jpeg");
+    text-align: center;
+
+    margin: 0 auto 0 auto;
+
+    
 }
 
+div.aboutimage>img{
+     
+      height: 100%;
+      width: auto;
+
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 50%;
+      
+      border: thick solid white;
+      
+
+
+}
 
 
 div.handles{
@@ -88,28 +101,29 @@ div.handles{
       width: 100%;
       height: 150px;
       text-align: center;
+      
 
 }
 
 div.facebook{
     
-     width: 20%;
+     width: 22%;
     float: left;
     margin: 1%;
 }
 
 div.instagram{
-     width: 20%;
+     width: 22%;
      float: left;
      margin: 1%;
 }
 div.twitter{
-     width: 20%;
+     width: 22%;
      float: left;
      margin: 1%;
 }
 div.github{
-     width: 20%;
+     width: 22%;
      float: left;
      margin: 1%;
 }
