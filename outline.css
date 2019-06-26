@@ -23,7 +23,7 @@ div.bgholder{
     background-image: url("Images/37602.jpg");
     height: 100%; 
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
 
     filter: blur(8px);
