@@ -42,28 +42,6 @@ div.centertext{
     
 }
 
-div.bottombackground{
-     
-     
-
-}
-
-div.bottomimage{
-      width: 100%;
-      height: 100%;
-     
-      position: absolute;
-      z-index: 0;
-     
-}
-
-div.bottomimage>img{
-      width: 100%;
-      height: 100%; 
-      
-      
-      
-}
 
 div.alltextcontainer{
       width: 70%;
