@@ -210,10 +210,17 @@ div.competitive a:visited,div.competitive a:link,div.competitive a:focus {
 }
 
 
+
 ul>a:visited ,ul>a:link , ul>a:focus{
      color: white;
      text-decoration: none;
 }
+
+a:visited ,a:link , a:focus{
+     color: orange;
+     text-decoration: none;
+}
+
 
 div.competitive li{
      display: list-item;
