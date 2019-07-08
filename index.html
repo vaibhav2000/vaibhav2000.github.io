@@ -95,6 +95,24 @@
 
       <br><br>
       <h1 >Contact</h1>
+      
+      <div class="fowiehfo" id="laterappend">
+         <p>Fill the form below to send me a message instantly!</p>
+      </div>
+       
+      <div class="formhold" id="formevade">
+         
+         <textarea id="nameplace" placeholder="Name here..." ></textarea><br>
+         <textarea id="emailplace" placeholder="Email here..."></textarea><br>
+         <textarea id="msgplace" placeholder="Message here(Optional)..." ></textarea><br>
+         <button id="submitplace" onclick="servepurpose()">Send</button>
+        
+
+     
+      </div>
+  
+   
+        <br><br><br>
       <p>Connect with me on</p><br>
  
       <div class ="handles">
@@ -115,9 +133,7 @@
 
       </div>
 
-      <p>Send me a message directly with <a href="https://blooming-spire-22449.herokuapp.com/">this form.</a></p> 
-     
-     
+
       <div class="competitive">  
       <p>Competitive programming handles-</p><br>
       <ul>
@@ -164,8 +180,38 @@
       The associated code can be found in my github repository <a href="https://github.com/vaibhav2000/vaibhav2000.github.io" target="_blank">here</a>.
       </p>
    </div>
-    
-   <script src="interaction.js">
+
+
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyC3BbqA0Jvda5Ob2ZdXn72Ubciol5vFuAU",
+        authDomain: "datanotifier-c194a.firebaseapp.com",
+        databaseURL: "https://datanotifier-c194a.firebaseio.com",
+        projectId: "datanotifier-c194a",
+        storageBucket: "datanotifier-c194a.appspot.com",
+        messagingSenderId: "301634537988",
+        appId: "1:301634537988:web:b7f0bb0d18669358"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+     <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
+     <script src="interaction.js"></script>
+
    </script>  
    
    </div>
