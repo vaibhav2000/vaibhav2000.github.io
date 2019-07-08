@@ -1,5 +1,7 @@
 html{
      scroll-behavior: smooth;
+     overflow-x:hidden;
+   
 }
 
 body{
@@ -14,6 +16,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+    min-height: 500px ;
+    
+
 }
 
 div.ultimatebound{     
@@ -39,10 +45,12 @@ div.centertext{
     position: absolute; 
     text-align: center;
     font-size: 100px;
-    top: 15%;
+    top: 12%;
+    height: 100%;
     width: 100%;
- 
-     
+    
+
+    
 
     
 }
@@ -60,7 +68,7 @@ div.alltextcontainer{
 div.upperlist{
      position: absolute;
      top: 5px;
-     right: 35px;
+     right: 2%;
 
 }
 
@@ -87,7 +95,7 @@ div.navigationtab{
 
 div.navlist{
      position: absolute;
-     right: 35px;
+     right: 2%;
 }
 
 
