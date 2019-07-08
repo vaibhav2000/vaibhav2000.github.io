@@ -188,6 +188,41 @@ div.bottompart>p{
 
 }
 
+
+
+div.formhold>textarea{
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     border-radius: 4px;
+     border: thin solid orange;
+}
+
+div.buttonholder{
+      width: 100%;
+      text-align: center;
+}
+
+div.buttonholder>button{
+  background-color: orange;
+  border: none;
+  
+  color: white;
+  padding: 12px 32px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  
+    
+}
+
+div.formhold>textarea[id="msgplace"]
+{
+      height: 200px;
+}
+
 .stickproperty{
      position: fixed;
      top: 0px;
