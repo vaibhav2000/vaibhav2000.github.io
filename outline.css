@@ -261,6 +261,11 @@ div.competitive a:visited,div.competitive a:link,div.competitive a:focus {
 ul>a:visited ,ul>a:link , ul>a:focus{
      color: white;
      text-decoration: none;
+     border-right: thin solid white;
+}
+
+ul>a[id="noleft"]{
+     border: none;
 }
 
 a:visited ,a:link , a:focus{
