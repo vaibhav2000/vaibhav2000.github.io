@@ -20,5 +20,5 @@ function servepurpose()
    data.push(member);
   
    document.getElementById("alertattach").classList.add("changevisibility");
-   
+   document.getElementById("formholder").remove();
 }
