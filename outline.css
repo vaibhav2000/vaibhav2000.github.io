@@ -46,15 +46,25 @@ h1{
 .uppertext{
  height: 100%;
  min-height: 500px;
- text-align: center;
- box-sizing: border-box;   
- padding-top: 50px;
+ 
+ box-sizing: border-box;
+ 
+ position: relative;
+ 
 }
 
 .uppertext>p  {
     
-    font-size: 10vw;
+    font-size: 100px;
     color: black; 
+   
+    width: fit-content;
+    top: 20%;
+    
+    text-align: centre;
+    width: 100%;
+    position: absolute;
+    
      
      
 }
