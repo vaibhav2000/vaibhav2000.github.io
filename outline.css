@@ -46,7 +46,7 @@ h1{
 .uppertext{
  height: 100%;
  min-height: 500px;
- position: relative;
+ 
  
 }
 
@@ -54,13 +54,9 @@ h1{
     
     font-size: 100px;
     color: black; 
-   
-    width: fit-content;
-    margin-top: 20%;
+    text-align: center;
     
-    text-align: centre;
-    width: 100%;
-    position: absolute;
+
      
 }
 
