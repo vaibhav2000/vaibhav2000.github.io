@@ -1,286 +1,130 @@
-html{
-     scroll-behavior: smooth;
-     overflow-x:hidden;
-   
-}
-
+html {
+    scroll-behavior: smooth;
+  }
 body{
-    margin: 0;
-    height: 100%; 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100;
+    font-family: "Roboto Mono" !important;
+}
+
+.navbar-custom {
+    background-color: black;
     color: white;
-    background-color: rgb(0,0,0,0.8);
-    background-image: url("Images/KrHep80.jpg");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
-    min-height: 500px ;
-    
-
 }
 
-div.ultimatebound{     
-} 
-
-div.stickittogether{
-     background-color: rgb(0,0,0,0.8);
-     
+.nav.navbar-nav.ml-auto li a {
+    color: white;    
 }
 
-div.bgholder{
-    background-image: url("Images/wallpaper.jpg");
-    height: 100%; 
-    background-position: center;
-    background-repeat: repeat-y;
-    background-size: cover;
-
-    filter: blur(8px); 
-   -webkit-filter: blur(8px);
-}
-
-div.centertext{
-    position: absolute; 
-    text-align: center;
-    font-size: 100px;
-    top: 12%;
-    height: 100%;
-    width: 100%;
-    
-
-    
-
-    
+.nav.navbar-nav.ml-auto li a:hover {
+    color: rgb(82, 144, 216);
+    transition: 0.5s;    
 }
 
 
-div.alltextcontainer{
-      width: 70%;
-      margin: 0 auto 0 auto ;   
-      background-color: rgb(40,42,53,0.6);  
-     
-      z-index: 4;
-      
-}
-
-div.upperlist{
-     position: absolute;
-     top: 5px;
-     right: 2%;
-
-}
-
-div.navtabholder{
-     margin: 0px;
-     width:100%;
-     height: 60px;
-
-     
-}
-
-div.navigationtab{
-    /* position: relative; */
-    margin: 0px;
-    width:100%;
-    height: 60px;
-
-    z-index: 5;
-   
-
-    background-color: rgb(0,0,0,0.8);
-    
-}
-
-div.navlist{
-     position: absolute;
-     right: 2%;
-}
-
-
-div.abouttext{
-  
-}
-
-div.aboutimage{
-    
-     
-    height: 25vw;
-    width: auto;
-
-    text-align: center;
-
-    margin: 0 auto 0 auto;
-
-    
-}
-
-div.aboutimage>img{
-     
-      height: 100%;
-      width: auto;
-
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 50%;
-      
-      border: thick solid white;
-      
-
-
-}
-
-
-div.handles{
-     
-      width: 100%;
-      height: 150px;
-      text-align: center;
-      
-
-}
-
-div.facebook{
-    
-     width: 22%;
-    float: left;
-    margin: 1%;
-}
-
-div.instagram{
-     width: 22%;
-     float: left;
-     margin: 1%;
-}
-div.twitter{
-     width: 22%;
-     float: left;
-     margin: 1%;
-}
-div.github{
-     width: 22%;
-     float: left;
-     margin: 1%;
-}
-
-
-
-div.texthere{
-     margin: 0 40px 0 40px;
-     
-       
-  
-}
-
-div.bottompart{
-      background-color: rgb(0,0,0,0.8);
-      width: 100%;
-      
-      text-align: center;
-    
-}
-
-div.bottompart>p{
-
-     padding: 15px;
-     
-
-}
-
-
-
-div.formhold>textarea{
-     width: 100%;
-     padding: 12px 20px;
-     margin: 8px 0;
-     box-sizing: border-box;
-     font-size: 30px;
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     border-radius: 4px;
-     border: thin solid orange;
-     
-}
-
-div.buttonholder{
-      width: 100%;
-      text-align: center;
-}
-
-div.buttonholder>button{
-  background-color: orange;
-  border: none;
-  
-  color: white;
-  padding: 12px 32px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  border-radius: 4px;
-  cursor: pointer;
-  
-    
-}
-
-div.formhold>textarea[id="msgplace"]
+.navbar-brand
 {
-      height: 200px;
+     border: thin solid white;
+     padding: 0px 15px ;
+     border-radius: 5px;
 }
 
-.stickproperty{
-     position: fixed;
-     top: 0px;
+.navbar-brand:hover
+{
+     border: thin solid rgb(82, 144, 216);
+     border-radius: 5px;
+     transition: 0.5s;
+     color: black !important;
+     background-color: white;
+
+   
 }
 
 
 
-
-li{
-     display: inline;
-     padding: 15px;
-     
-}
-
-li:hover{
-     color: orange;
-     transition: 0.5s;  
-}
-
-h1{
-     
-     color: orange;
-
-     
-}
-
-div.competitive a:visited,div.competitive a:link,div.competitive a:focus {
+.uppertext{
+    min-height: 400px;
+    height: 100%; 
     
-     color: white;
-     text-decoration: none;
-          
+    position: relative;
+    height: 100%;
+    
+    
 }
 
-
-
-ul>a:visited ,ul>a:link , ul>a:focus{
-     color: white;
-     text-decoration: none;
-     border-right: thin solid white;
-}
-
-ul>a[id="noleft"]{
-     border: none;
-}
-
-a:visited ,a:link , a:focus{
-     color: orange;
-     text-decoration: none;
-}
-
-
-div.competitive li{
-     display: list-item;
+.uppertext>p  {
+     font-size: 100px;
+     text-align:left;
+     color: black;
+     
+     
+     width: 100%;
+     height: fit-content;
+     overflow: auto;
+     margin: auto 0;
+     position: absolute;
+     top: 0; left: 0; bottom: 0; right: 0;
+     padding-left: 25px;
+    
+     
+     
+     
+     
      
 }
 
-div.competitive li:hover{
-     color: white;
+.textpart{
+     max-width: 900px;
+     padding: 20px;
+     margin: 0 auto;
+     
 }
+
+div.direction{
+    display: block;
+    position: relative;
+    top: -80px;
+    
+}
+
+textarea{
+    width: 100%;
+    border: 3px solid black;
+    display: block;
+    padding: 15px 5px 0px 5px;
+    background-color: white;  
+}
+
+
+#submitplace{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#formalert{
+    background-color: transparent;
+    border: 0px;
+}
+
+#alertattach{
+     display: none;
+}
+
+.changevisibility{
+    
+    width: 100%;
+    display: inline-block !important; 
+  
+}
+
+.transition{
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    transition:all 1s ease-in-out;
+  }
+ 
