@@ -41,24 +41,33 @@ body{
 
 h1{
     color: black;
+    
+}
+
+.uppertextcontainer{
+    height: 100%;
+    min-height: 500px;
+    width: 100%;
+    position: relative;
+    
 }
 
 .uppertext{
- height: 100%;
- min-height: 500px;
+
+ font-size: 10vw; 
  
+ color: black; 
+ width: max-content;
+ margin: 0; 
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-70%, -50%);
+
+
  
 }
 
-.uppertext>p  {
-    
-    font-size: 90px;
-    color: black; 
-    text-align: center;
-    
-
-     
-}
 
 .textpart{
      max-width: 900px;
