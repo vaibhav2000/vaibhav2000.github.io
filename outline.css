@@ -9,6 +9,7 @@ body{
 .navbar-custom {
     background-color: black;
     color: white;
+    
 }
 
 .nav.navbar-nav.ml-auto li a {
@@ -49,6 +50,7 @@ h1{
     min-height: 500px;
     width: 100%;
     position: relative;
+    overflow: hidden;
     
 }
 
@@ -106,15 +108,4 @@ textarea{
 #formalert{
     background-color: transparent;
     border: 0px;
-}
-
-#alertattach{
-     display: none;
-}
-
-.changevisibility{
-    
-    width: 100%;
-    display: inline-block !important; 
-  
 }
