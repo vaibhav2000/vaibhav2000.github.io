@@ -98,7 +98,7 @@ $("#emailplace").keyup(function(){
   curr.popover({
     trigger: 'manual',
     placement: 'bottom',
-    content: 'Please Enter a Valid Email' 
+    content: 'Please Enter a Valid Email',
   });
 
   curr.popover('show');

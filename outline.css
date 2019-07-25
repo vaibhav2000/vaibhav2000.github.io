@@ -17,6 +17,10 @@ body{
     color: white;    
 }
 
+.popover{
+z-index: inherit !important;
+}
+
 .nav.navbar-nav.ml-auto li a:hover {
     color: rgb(82, 144, 216);
     transition: 0.5s;    
@@ -28,8 +32,10 @@ body{
      border: thin solid white;
      padding: 0px 15px ;
      border-radius: 5px;
-}
+     
+        }
 
+      
 .navbar-brand:hover
 {
      border: thin solid rgb(82, 144, 216);
@@ -40,6 +46,16 @@ body{
 
    
 }
+
+.upperhold .navbar .navbar-brand{
+    border: 0px;
+
+}
+
+.upperhold .navbar .navbar-brand:hover{
+    border: 0px;
+    background-color: black;
+    color: white !important;}
 
 h1{
     color: black;
