@@ -10,7 +10,13 @@ body{
     background-color: black;
     color: white;
   
-    
+   
+}
+
+.sticky-top.navbar-custom{
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.77);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.77);
 }
 
 .nav.navbar-nav.ml-auto li a {
@@ -22,7 +28,7 @@ z-index: inherit !important;
 }
 
 .nav.navbar-nav.ml-auto li a:hover {
-    color: rgb(82, 144, 216);
+    color: #499eff;
     transition: 0.5s;    
 }
 
@@ -38,7 +44,7 @@ z-index: inherit !important;
       
 .navbar-brand:hover
 {
-     border: thin solid rgb(82, 144, 216);
+     border: thin solid #499eff;
      border-radius: 5px;
      transition: 0.5s;
      color: black !important;
@@ -126,3 +132,5 @@ textarea{
     background-color: transparent;
     border: 0px;
 }
+
+  
