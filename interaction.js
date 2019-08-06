@@ -18,7 +18,7 @@ function servepurpose()
   
      curr.popover({
        trigger: 'manual',
-       placement: 'bottom',
+       placement: 'left',
        content: 'Please Enter a Valid Name' 
      });
    
@@ -35,7 +35,7 @@ function servepurpose()
   
   curr.popover({
     trigger: 'manual',
-    placement: 'bottom',
+    placement: 'left',
     content: 'Please Enter a Valid Email' 
   });
 
@@ -79,7 +79,7 @@ $("#nameplace").keyup(function(){
   
   curr.popover({
     trigger: 'manual',
-    placement: 'bottom',
+    placement: 'left',
     content: 'Please Enter a Valid Name' 
   });
 
@@ -97,7 +97,7 @@ $("#emailplace").keyup(function(){
   
   curr.popover({
     trigger: 'manual',
-    placement: 'bottom',
+    placement: 'left',
     content: 'Please Enter a Valid Email',
   });
 

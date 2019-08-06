@@ -13,6 +13,12 @@ body{
    
 }
 
+div.container{
+    display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .sticky-top.navbar-custom{
     -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.77);
     -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.77);
@@ -40,6 +46,8 @@ z-index: inherit !important;
      border-radius: 5px;
      
         }
+
+    
 
       
 .navbar-brand:hover
@@ -77,6 +85,7 @@ h1{
     
 }
 
+
 .uppertext{
 
  font-size: 10vw; 
@@ -95,7 +104,7 @@ h1{
 
 
 .textpart{
-     max-width: 900px;
+     max-width: 1000px;
      padding: 20px;
      margin: 0 auto;
      
