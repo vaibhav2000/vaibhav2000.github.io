@@ -1,145 +1,107 @@
-html {
-    scroll-behavior: smooth;
-  }
-body{
-    min-height: 100;
-    font-family: "Roboto Mono" !important;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9fafc;
+  color: #595354;
 }
 
-.navbar-custom {
-    background-color: black;
-    color: white;
-  
-   
+.header {
+  background-color: #ffffff;
+  padding: 10px 40px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
 
-div.container{
-    display: flex;
-  justify-content: center;
-  flex-direction: row;
+.header > .logo-container {
+  display: flex;
+  align-items: center;
 }
 
-.sticky-top.navbar-custom{
-    -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.77);
-    -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.77);
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.77);
+.header > .logo-container > .logo-img {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
 }
 
-.nav.navbar-nav.ml-auto li a {
-    color: white;    
+.header > .logo-container > .logo-text {
+  font-size: 26px;
+  font-weight: 700;
 }
 
-.popover{
-z-index: inherit !important;
+.header > .logo-container > .logo-text > .logo-highlight {
+  color: #65a9e5;
 }
 
-.nav.navbar-nav.ml-auto li a:hover {
-    color: #499eff;
-    transition: 0.5s;    
+.content-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* justify-content: space-between; */
+  overflow: hidden;
 }
 
-
-.navbar-brand
-{
-     border: thin solid white;
-     padding: 0px 15px ;
-     border-radius: 5px;
-     
-        }
-
-    
-
-      
-.navbar-brand:hover
-{
-     border: thin solid #499eff;
-     border-radius: 5px;
-     transition: 0.5s;
-     color: black !important;
-     background-color: white;
-
-   
+.active-users-panel {
+  width: 25%;
+  height: 100%;
+  border-right: 1px solid #cddfe7;
 }
 
-.upperhold .navbar .navbar-brand{
-    border: 0px;
-
+.panel-title {
+  margin: 10px 0 0 0;
+  padding-left: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  border-bottom: 1px solid #cddfe7;
+  padding-bottom: 10px;
 }
 
-.upperhold .navbar .navbar-brand:hover{
-    border: 0px;
-    background-color: black;
-    color: white !important;}
-
-h1{
-    color: black;
-    
+.active-user {
+  padding: 5%;
+  border-bottom: 1px solid #cddfe7;
+  cursor: pointer;
+  user-select: none;
+  word-wrap: break-word;
+  overflow: hidden;
 }
 
-.uppertextcontainer{
-    height: 100%;
-    min-height: 500px;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    
+.active-user:hover {
+  background-color: #e8e9eb;
+  transition: background-color 0.5s ease;
 }
 
-
-.uppertext{
-
- font-size: 10vw; 
- 
- color: black; 
- width: max-content;
- margin: 0; 
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-70%, -50%);
-
-
- 
+.active-user--selected {
+  background-color: #fff;
+  border-right: 5px solid #65a9e5;
+  font-weight: 500;
+  transition: all 0.5s ease;
 }
 
-
-.textpart{
-     max-width: 1000px;
-     padding: 20px;
-     margin: 0 auto;
-     
+.video-chat-container {
+  padding: 0 20px;
+  flex: 1;
+  max-height: 500px;
+  width: 100%;
+  position: relative;
 }
 
-div.direction{
-    display: block;
-    position: relative;
-    top: -80px;
-    
+.talk-info {
+  font-weight: 500;
+  font-size: 21px;
 }
 
-textarea{
-    width: 100%;
-    border: 3px solid black;
-    display: block;
-    padding: 15px 5px 0px 5px;
-    margin: 0px;
-    background-color: white;  
+.remote-video {
+  border: 1px solid #cddfe7;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
 }
 
-
-#submitplace{
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 10px 32px;
-    text-decoration: none;
-    cursor: pointer;
+.local-video {
+  border: 1px solid #cddfe7;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
 }
-
-
-#formalert{
-    background-color: transparent;
-    border: 0px;
-}
-
-  
