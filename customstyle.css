@@ -89,8 +89,7 @@ body {
 }
 
 .talk-info {
-  font-weight: 500;
-  font-size: 21px;
+  display: none;
 }
 
 .remote-video {
